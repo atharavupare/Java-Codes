@@ -5,9 +5,11 @@ package Iterations;
 import java.util.Scanner;
 
 public class CountofPrimeno {
+    private static Scanner sc;
+
     public static void main(String args[])
     {
-        Scanner sc=new Scanner(System.in);
+        sc = new Scanner(System.in);
         System.out.print("Enter the Starting Number:");
         int num1=sc.nextInt();
         System.out.println("Enter the last Number of the range:");
