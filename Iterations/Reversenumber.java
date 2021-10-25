@@ -4,9 +4,11 @@ package Iterations;
 
 import java.util.*;
 public class Reversenumber {
+    private static Scanner sc;
+
     public static void main(String args[])
     {
-        Scanner sc=new Scanner(System.in);
+        sc = new Scanner(System.in);
         System.out.print("Enter the Number:");
         int num=sc.nextInt();
         int rev=0,r;
