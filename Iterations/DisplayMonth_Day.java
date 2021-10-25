@@ -4,8 +4,10 @@ package Iterations;
 import java.util.Scanner;
 
 public class DisplayMonth_Day {
+    private static Scanner sc;
+
     public static void main(String args[])
-    {Scanner sc=new Scanner(System.in);
+    {sc = new Scanner(System.in);
         while(true)
         {
             System.out.println("1.Display the Months");
