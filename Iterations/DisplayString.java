@@ -5,9 +5,11 @@ package Iterations;
 import java.util.Scanner;
 
 public class DisplayString {
- public static void main(String args[])
+ private static Scanner in;
+
+public static void main(String args[])
  {
-     Scanner in=new Scanner(System.in);
+     in = new Scanner(System.in);
      System.out.print("Enter the String:");
      String S=in.nextLine();
      System.out.print("Enter the Number :");
